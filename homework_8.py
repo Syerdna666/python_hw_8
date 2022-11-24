@@ -29,7 +29,7 @@ def find_max_average(grades):
     number_group = average_grades.index(max_grade)
     print(f'Highest average grade is - {max_grade}. Number of group is - {number_group + 1}')
 
-# find_max_average(create_grades())
+find_max_average(create_grades())
 
 # Дана квадратная матрица, заполненная случайными числами. Определите,
 # сумма элементов каких строк превосходит сумму главной диагонали матрицы.
